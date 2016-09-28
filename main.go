@@ -1,7 +1,7 @@
 /*
 Author: Ben Polzin
 Github Author: https://github.com/benpolzin
-Github Repo: https://github.com/benpolzin/gobahnhof
+Github Repo: https://github.com/benpolzin/humoctobutton
 
 Version: 0.1
 */
@@ -191,10 +191,3 @@ func main() {
 	})
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
-
-/*
-// web server
-func main() {
-  http.ListenAndServe(":8080", nil)
-}
-*/
